@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pirata+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+        @font-face {
+            font-family: Lobster;
+            src: url('fonts/NanumBrushScript-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+
+        }
+        h1 {
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: "Pirata One", system-ui;
+            font-weight: 300;
+        }
+        P {
+            color: navy;
+            text-align: center;
+            font-size: 30px;
+            font-family: "Nanum Brush Script", cursive;
+        }
+        .lobster {
+            font-family: Lobster, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, obcaecati. Illum, autem vero. Reiciendis rem doloremque earum dolores doloribus illum!</p>
+    <p class="lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur assumenda consequuntur temporibus? Eligendi earum nostrum laborum, nemo rem quae excepturi.</p>
+</body>
+</html>
